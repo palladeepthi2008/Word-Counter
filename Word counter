@@ -1,0 +1,31 @@
+# Word and Character Counter
+
+# Get paragraph from the user
+text = input("Enter a paragraph: ")
+
+# Check if the input is empty
+if text == "":
+    print("Please enter some text.")
+else:
+    # Count characters
+    characters = len(text)
+
+    # Count words
+    words = len(text.split())
+
+    # Count spaces
+    spaces = text.count(" ")
+
+    # Count sentences
+    sentences = 0
+
+    for ch in text:
+        if ch == "." or ch == "!" or ch == "?":
+            sentences = sentences + 1
+
+    # Display the result
+    print("\n--- Text Statistics ---")
+    print("Characters:", characters)
+    print("Words:", words)
+    print("Sentences:", sentences)
+    print("Spaces:", spaces)
