@@ -1,0 +1,51 @@
+# 📊 Word and Character Counter
+
+## 📌 Description
+
+**Word and Character Counter** is a simple and beginner-friendly Python project that accepts a paragraph from the user and calculates basic text statistics.
+
+The program counts:
+
+* 🔤 Number of characters
+* 📝 Number of words
+* 📖 Number of sentences
+* ␠ Number of spaces
+
+## 🎯 Objective
+
+The main objective of this project is to practice **Python string manipulation and basic text processing**.
+
+## 🛠️ Technologies Used
+
+* **Python**
+* `len()`
+* `split()`
+* `count()`
+* `for` loop
+* `if` condition
+
+
+```
+
+5. Enter a paragraph when prompted.
+
+## 💻 Sample Output
+
+```text
+Enter a paragraph: Python is easy to learn. Python is useful!
+
+--- Text Statistics ---
+Characters: 43
+Words: 8
+Sentences: 2
+Spaces: 6
+```
+
+## 📚 Learning Outcome
+
+Through this project, I learned how to work with **strings, loops, conditions, and built-in Python functions** for basic text analysis.
+
+## 👩‍💻 Project
+
+**Task 11 – Word and Character Counter**
+Completed as part of the **Veda Technology Python Programming Internship**.
